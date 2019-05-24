@@ -1,7 +1,186 @@
-p {
-    font-size: 2em;
+/* h1 {
+    color: #f3f9fb;
 }
 
-.hellp {
-    background-color: aquamarine;
+h2 {
+    color: #87c0cd;
 }
+h3 {
+    color: #226597;
+}
+h4 {
+    color: #113f67;
+} */
+
+body {
+    text-align: center;
+
+}
+
+
+
+.NavBar {
+    background-color: #6fbbd4f8;
+    padding-left: 4%;
+    padding-right: 8%;
+    display: grid;
+    /* define the grid template */
+    grid-template: auto / auto 100px 100px 100px 100px;
+    grid-gap: 1px;
+    justify-items: start;
+
+}
+
+.logo{
+    margin-top: 8px;
+    color: #fff;
+}
+
+.item{
+    margin-top:4px;
+}
+.item:hover{
+   color: #6fbbd4f8;
+}
+
+.ProfileImage{
+    width: 100%;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #6fbbd4f8;
+}
+/* .List .item:hover{
+    columns: #222222;
+} */
+
+.TopWindow{
+    background-color: #113f67;
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.TopWindow .slogon{
+    color: #113f67;
+    position: absolute;
+    margin:0;
+    top:20%;
+    width: 30%;
+    text-align: left;
+    padding-left:10%
+}
+
+.FirstContainer{
+    padding: 2%;
+}
+
+.Quote1{
+    margin: 20px 50px;
+
+}
+.Quote2{
+    padding: 5%;
+}
+.SecondContainer{
+    padding-top: 20px;
+    background-color: #113f67;
+    color: #f3f9fb;
+}
+
+li {
+    list-style: none;
+}
+.Sponsor1{
+    width: 250px;
+    margin: 2%;
+}
+.Sponsor2{
+    width: 250px;
+    margin: 2%;
+}
+
+
+.Product{
+    margin: 20px 10% 10px 0;
+    margin-left: 10%;
+    width: 20%;
+}
+.FirstData{
+    width: 350px;
+    margin: 30px 30px;
+
+}
+
+.ThirdContainer{
+    margin: 2%;
+
+}
+.FourthContainer{
+    color: #f3f9fb;
+    background-color: #113f67;
+    padding: 10px;
+}
+
+hr{
+    width:20%;
+}
+.SixthContainer{
+    padding: 50px;
+
+}
+.OurTeam{
+    padding: 20px;
+}
+.EighthContainer {
+    background-color: #6fbbd4f8;
+}
+
+.Fotter{
+    display: grid;
+
+}
+footer{
+    padding: 20px;
+    height: 100px;
+    background-color: #212121; 
+    color: #f3f9fb
+
+}
+
+/* Contact me page content */
+.ContactMemiddle{
+    display: grid;
+
+    color: #556570;
+
+    width: 100%;
+}
+.Address{    
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.mapouter {
+
+    padding-left:30%;
+    padding-bottom: 10%;
+    height: 350px;
+    width: 350px;
+  }
+
+  .gmap_canvas {
+    height: 350px;
+    width: 350px;
+  }
+  .ContactDetail{
+      color: #000;
+      text-align: center;
+  }
