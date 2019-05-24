@@ -128,6 +128,9 @@ li {
     background-color: #113f67;
     padding: 10px;
 }
+.Product {
+    width:80%;
+}
 
 hr{
     width:20%;
@@ -136,16 +139,64 @@ hr{
     padding: 50px;
 
 }
+.TeamGrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.TeamMate1, .TeamMate2 , .TeamMate3{
+    width: 250px;
+    border-radius: 50%;
+}
+/* .TeamProfile {
+    position: relative;
+    left:41.25%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .TeamProfile img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+  }  */
+ 
 .OurTeam{
     padding: 20px;
 }
 .EighthContainer {
     background-color: #6fbbd4f8;
 }
+.Support{
+    color: #fff;
+    padding-top: 20px;
+}
+.Sponsor {
+    width:100px;
+}
 
 .Fotter{
     display: grid;
 
+}
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+  }
+   
+.iframe-container iframe {
+    border: 0;
+    height: 80%;
+    left: 10%;
+    position: absolute;
+    top: 0;
+    width: 80%;
 }
 footer{
     padding: 20px;
@@ -183,4 +234,19 @@ footer{
   .ContactDetail{
       color: #000;
       text-align: center;
+  }
+
+  @media only screen and (max-width: 970px) {
+    .TeamGrid{
+        display:block;
+    }
+
+    .TopWindow .slogon{
+        text-align: center;
+        padding-left:0;
+    }
+    .NavBar h2{
+        display: none;
+    }
+ 
   }

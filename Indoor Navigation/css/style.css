@@ -139,6 +139,12 @@ hr{
 .OurTeam{
     padding: 20px;
 }
+.TeamProfile{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 .EighthContainer {
     background-color: #6fbbd4f8;
 }
